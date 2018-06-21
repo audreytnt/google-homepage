@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.logo img {
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+  width: 300px;
+  margin-top: 180px;
+  margin-bottom: 10px;
+}
+
+.searchbar {
+  display: block;
+  width: 550px;
+  margin: 0 auto;
+}
+
+.searchbar input {
+  width: 550px;
+  height: 40px;
+}
+
+.buttons {
+  width: 550px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 25px;
+}
+.google {
+  margin-right: 5px;
+}
+
+.google, .lucky {
+  height: 36px;
+  background-color: #f2f2f2;
+  border: none;
+  font-weight: bold;
+  color: #757575;
+  padding: 0px 16px;
+}
+
+.google:hover, .lucky:hover {
+  color: black;
+  border: 1px solid #666;
+}
+
+header ul {
+  text-align: right;
+}
+
+header li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+header a {
+  color: rgba(0,0,0,0.87);
+}
+
+.sign-in {
+  background-color: #4285f4;
+  padding: 7px 12px;
+  border-radius: 2px;
+  margin-right: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.sign-in a {
+  color: white;
+}
+
+.grid {
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+footer {
+  background-color: #f2f2f2;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer li, footer ul {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+footer a {
+  color: #666;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.country {
+  border-bottom: 1px solid #e4e4e4;
+  display: block;
+  padding-left: 20px;
+  font-size: 15px;
+}
